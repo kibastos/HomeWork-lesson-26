@@ -1,0 +1,57 @@
+.container {
+  padding: 100px 100px 50vh;
+  height: 100vh;
+}
+
+.container2 {
+  padding: 100px 100px 50vh;
+  height: 100vh;
+}
+
+.block {
+  padding: auto;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 5rem;
+  text-transform: uppercase;
+  font-family: sans-serif;
+  border: 5px solid #000;
+}
+
+.block2 {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 5rem;
+  text-transform: uppercase;
+  font-family: sans-serif;
+  border: 5px solid #000;
+}
+
+
+
+
+
+.block {
+  transition: 3s, border-color 2s 2s;
+
+
+}
+
+.block2 {
+  transition-duration: 3s;
+  transition-delay: 2s;
+}
+
+
+.block:hover {
+  border-color: #ff0000;
+} 
+
+.block2:hover {
+  border-color: #ff0000;
+} 
+
